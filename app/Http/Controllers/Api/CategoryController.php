@@ -7,5 +7,16 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-    //
+    public function index(){
+        return response()->json([
+            'status' => 200,
+            'category' => 'Welcome to Laravel API'
+        ]);
+    }
+
+    public function store(Request $request){
+        return response()->json([
+            'form_requests' => $request->all(),
+        ]);
+    }
 }

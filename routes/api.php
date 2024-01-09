@@ -14,4 +14,5 @@ use App\Http\Controllers\Api\CategoryController;
 |
 */
 
-Route::get('message', [CategoryController::class,'index']);
+Route::get('categories', [CategoryController::class,'index']);
+Route::post('categories/store', [CategoryController::class,'store']);
