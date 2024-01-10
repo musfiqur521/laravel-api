@@ -18,22 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// //Get all Categories
-// Route::get('categories', function () {
-//     //
-// })->name('categories.index');
 
-// //Category Create form
-// Route::get('categories/create', function () {
-//     //
-// })->name('categories.create');
-
-// //Category Store
-// Route::get('categories/store', function () {
-//     //
-// })->name('categories.store');
-
-// //View a Single Category
-// Route::get('categories/{category}', function (Category $category) {
-//     //
-// });
